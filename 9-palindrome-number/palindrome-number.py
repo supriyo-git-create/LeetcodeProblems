@@ -9,6 +9,6 @@ class Solution(object):
         while x > 0:
             digit = x % 10
             reverse = reverse * 10 + digit
-            x //= 10
+            x //=10 #this operator is called floor division operator its round up the digit example 3.5=3 and then sents 
 
         return original == reverse
